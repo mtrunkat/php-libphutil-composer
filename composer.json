@@ -1,5 +1,5 @@
 {
-    "name": "trunkat/libphutil",
+    "name": "mtrunkat/libphutil",
     "type": "library",
     "description": "Composer compatible version (not official) of Libphutil library.",
     "keywords": ["libphutil","futures"],
