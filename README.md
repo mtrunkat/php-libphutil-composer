@@ -8,7 +8,7 @@ For more information about Libphutil check [Github repository](https://github.co
 
 ### Installation
 
-Add this library into you composer.json:
+Add this ([Packagist](https://packagist.org/packages/mtrunkat/libphutil)) library into you composer.json:
 ```json
 {
     "require" : {
