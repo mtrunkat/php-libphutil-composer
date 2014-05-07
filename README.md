@@ -12,7 +12,7 @@ Add this library into you composer.json:
 ```json
 {
     "require" : {
-        "trunkat/lbphutil" : "dev-master"
+        "mtrunkat/lbphutil" : "dev-master"
     }
 }
 ```
