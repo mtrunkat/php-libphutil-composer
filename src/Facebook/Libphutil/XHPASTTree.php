@@ -1,0 +1,80 @@
+<?php
+
+namespace Facebook\Libphutil;
+
+/**
+ * @group xhpast
+ */
+final class XHPASTTree extends \Facebook\Libphutil\AASTTree {
+
+  public function __construct(array $tree, array $stream, $source) {
+    $this->setTreeType('XHP');
+    $this->setNodeConstants(\Facebook\Libphutil\Functions\parser_nodes::xhp_parser_node_constants());
+    $this->setTokenConstants(\Facebook\Libphutil\Functions\parser_tokens::xhpast_parser_token_constants());
+
+    parent::__construct($tree, $stream, $source);
+  }
+
+  public function newNode($id, array $data, \Facebook\Libphutil\AASTTree $tree) {
+    return new \Facebook\Libphutil\XHPASTNode($id, $data, $tree);
+  }
+
+  public function newToken(
+    $id,
+    $type,
+    $value,
+    $offset,
+    \Facebook\Libphutil\AASTTree $tree) {
+    return new \Facebook\Libphutil\XHPASTToken($id, $type, $value, $offset, $tree);
+  }
+
+  public static function newFromData($php_source) {
+    $future = \Facebook\Libphutil\Functions\xhpast_parse::xhpast_get_parser_future($php_source);
+    return self::newFromDataAndResolvedExecFuture(
+      $php_source,
+      $future->resolve());
+  }
+
+  public static function newStatementFromString($string) {
+    $string = '<?php
+
+namespace Facebook\Libphutil; '.rtrim($string, ';').";\n";
+    $tree = \Facebook\Libphutil\XHPASTTree::newFromData($string);
+    $statements = $tree->getRootNode()->selectDescendantsOfType('n_STATEMENT');
+    if (count($statements) != 1) {
+      throw new \Exception("String does not parse into exactly one statement!");
+    }
+    // Return the first one, trying to use reset() with iterators ends in tears.
+    foreach ($statements as $statement) {
+      return $statement;
+    }
+  }
+
+  public static function newFromDataAndResolvedExecFuture(
+    $php_source,
+    array $resolved) {
+
+    list($err, $stdout, $stderr) = $resolved;
+    if ($err) {
+      if ($err == 1) {
+        $matches = null;
+        $is_syntax = preg_match(
+          '/^XHPAST Parse Error: (.*) on line (\d+)/s',
+          $stderr,
+          $matches);
+        if ($is_syntax) {
+          throw new \Facebook\Libphutil\XHPASTSyntaxErrorException($matches[2], $stderr);
+        }
+      }
+      throw new \Exception("XHPAST failed to parse file data {$err}: {$stderr}");
+    }
+
+    $data = json_decode($stdout, true);
+    if (!is_array($data)) {
+      throw new \Exception("XHPAST: failed to decode tree.");
+    }
+
+    return new \Facebook\Libphutil\XHPASTTree($data['tree'], $data['stream'], $php_source);
+  }
+
+}
