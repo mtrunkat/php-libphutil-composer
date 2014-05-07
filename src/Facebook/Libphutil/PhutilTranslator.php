@@ -88,7 +88,7 @@ final class PhutilTranslator {
 
     if ($is_html) {
       foreach ($args as $k => $arg) {
-        $args[$k] = (string)phutil_escape_html($arg);
+        $args[$k] = (string)\Facebook\Libphutil\Functions\render::phutil_escape_html($arg);
       }
     }
 

@@ -47,7 +47,7 @@ final class PhutilURI {
     $this->user     = rawurldecode(\Facebook\Libphutil\Functions\utils::idx($parts, 'user', ''));
     $this->pass     = rawurldecode(\Facebook\Libphutil\Functions\utils::idx($parts, 'pass', ''));
     $this->domain   = \Facebook\Libphutil\Functions\utils::idx($parts, 'host', '');
-    $this->port     = (string)idx($parts, 'port', '');
+    $this->port     = (string)\Facebook\Libphutil\Functions\utils::idx($parts, 'port', '');
     $this->path     = \Facebook\Libphutil\Functions\utils::idx($parts, 'path', '');
     $query = \Facebook\Libphutil\Functions\utils::idx($parts, 'query');
     if ($query) {
