@@ -313,7 +313,7 @@ abstract class BaseHTTPFuture extends \Facebook\Libphutil\Future {
         return $this->buildMalformedResult($raw_response);
       }
 
-      $head = $matches['\Facebook\Libphutil\Functions\utils::head'];
+      $head = $matches['head'];
       $body = $matches['body'];
 
       if (!preg_match($rex_head, $head, $matches)) {
