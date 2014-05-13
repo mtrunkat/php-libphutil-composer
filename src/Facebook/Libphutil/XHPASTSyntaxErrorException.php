@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group xhpast
  */
-final class XHPASTSyntaxErrorException extends \Exception {
+class XHPASTSyntaxErrorException extends \Exception {
 
   protected $errorLine;
 

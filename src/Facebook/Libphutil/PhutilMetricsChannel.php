@@ -11,7 +11,7 @@ namespace Facebook\Libphutil;
  *
  * @group channel
  */
-final class PhutilMetricsChannel extends \Facebook\Libphutil\PhutilChannelChannel {
+class PhutilMetricsChannel extends \Facebook\Libphutil\PhutilChannelChannel {
 
   private $bytesRead = 0;
   private $bytesWritten = 0;

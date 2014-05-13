@@ -22,7 +22,7 @@ namespace Facebook\Libphutil;
  * @task envelope Using Opaque Envelopes
  * @task internal Internals
  */
-final class PhutilOpaqueEnvelope {
+class PhutilOpaqueEnvelope {
 
   private $value;
 

@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group lexer
  */
-final class PhutilShellLexer extends \Facebook\Libphutil\PhutilLexer {
+class PhutilShellLexer extends \Facebook\Libphutil\PhutilLexer {
 
   /**
    * Convert a shell command string into an argument vector. For example, this

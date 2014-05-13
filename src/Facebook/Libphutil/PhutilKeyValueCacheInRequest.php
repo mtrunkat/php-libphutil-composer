@@ -17,7 +17,7 @@ namespace Facebook\Libphutil;
  *
  * @group cache
  */
-final class PhutilKeyValueCacheInRequest extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheInRequest extends \Facebook\Libphutil\PhutilKeyValueCache {
 
   private $cache = array();
   private $ttl = array();

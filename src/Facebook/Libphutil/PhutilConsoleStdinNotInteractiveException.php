@@ -10,7 +10,7 @@ namespace Facebook\Libphutil;
  *
  * @group console
  */
-final class PhutilConsoleStdinNotInteractiveException extends \Exception {
+class PhutilConsoleStdinNotInteractiveException extends \Exception {
   public function __construct() {
     parent::__construct(
       "The program is attempting to read user input, but stdin is being piped ".

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * NOTE: This is very new and unstable.
  */
-final class PhutilSpriteSheet {
+class PhutilSpriteSheet {
 
   const MANIFEST_VERSION = 1;
 

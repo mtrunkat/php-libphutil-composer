@@ -25,7 +25,7 @@ namespace Facebook\Libphutil;
  * @task internals  Internals
  * @group filesystem
  */
-final class LinesOfALargeExecFuture extends \Facebook\Libphutil\LinesOfALarge {
+class LinesOfALargeExecFuture extends \Facebook\Libphutil\LinesOfALarge {
 
   private $future;
   private $didRewind;

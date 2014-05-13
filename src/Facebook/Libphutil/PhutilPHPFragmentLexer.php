@@ -12,7 +12,7 @@ namespace Facebook\Libphutil;
  *
  * @group lexer
  */
-final class PhutilPHPFragmentLexer extends \Facebook\Libphutil\PhutilLexer {
+class PhutilPHPFragmentLexer extends \Facebook\Libphutil\PhutilLexer {
 
   protected function getRawRules() {
     $keywords = array(

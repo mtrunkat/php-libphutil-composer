@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Mozilla's Persona.
  */
-final class PhutilAuthAdapterPersona extends \Facebook\Libphutil\PhutilAuthAdapter {
+class PhutilAuthAdapterPersona extends \Facebook\Libphutil\PhutilAuthAdapter {
 
   private $audience;
   private $assertion;

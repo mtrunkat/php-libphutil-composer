@@ -27,7 +27,7 @@ namespace Facebook\Libphutil;
  *
  * @group futures
  */
-final class HTTPFuture extends \Facebook\Libphutil\BaseHTTPFuture {
+class HTTPFuture extends \Facebook\Libphutil\BaseHTTPFuture {
 
   private $host;
   private $port = 80;

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group paypal
  */
-final class PhutilPayPalAPIFuture extends \Facebook\Libphutil\FutureProxy {
+class PhutilPayPalAPIFuture extends \Facebook\Libphutil\FutureProxy {
 
   private $future;
   private $host = 'https://api-3t.paypal.com/nvp';

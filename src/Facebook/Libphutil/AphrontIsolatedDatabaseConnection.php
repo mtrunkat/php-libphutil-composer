@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group storage
  */
-final class AphrontIsolatedDatabaseConnection
+class AphrontIsolatedDatabaseConnection
   extends \Facebook\Libphutil\AphrontDatabaseConnection {
 
   private $configuration;

@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group testcase
  */
-final class PhutilProcessGroupDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
+class PhutilProcessGroupDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
 
   public function run() {
     $root = \Facebook\Libphutil\Functions\moduleutils::phutil_get_library_root('phutil');

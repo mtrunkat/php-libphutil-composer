@@ -14,7 +14,7 @@ namespace Facebook\Libphutil;
  * @task  internal    Internals
  * @group console
  */
-final class PhutilConsole {
+class PhutilConsole {
 
   private static $console;
 

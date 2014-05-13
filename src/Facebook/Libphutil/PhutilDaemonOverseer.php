@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group daemon
  */
-final class PhutilDaemonOverseer {
+class PhutilDaemonOverseer {
 
   const EVENT_DID_LAUNCH    = 'daemon.didLaunch';
   const EVENT_DID_LOG       = 'daemon.didLogMessage';

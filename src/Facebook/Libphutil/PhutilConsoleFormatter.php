@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group console
  */
-final class PhutilConsoleFormatter {
+class PhutilConsoleFormatter {
 
   private static $colorCodes = array(
     'black'   => 0,

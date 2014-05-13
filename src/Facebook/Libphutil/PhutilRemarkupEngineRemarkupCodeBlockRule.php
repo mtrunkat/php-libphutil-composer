@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupEngineRemarkupCodeBlockRule
+class PhutilRemarkupEngineRemarkupCodeBlockRule
   extends \Facebook\Libphutil\PhutilRemarkupEngineBlockRule {
 
   public function getMatchingLineCount(array $lines, $cursor) {

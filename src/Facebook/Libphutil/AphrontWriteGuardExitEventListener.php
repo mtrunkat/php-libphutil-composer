@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group aphront
  */
-final class AphrontWriteGuardExitEventListener extends \Facebook\Libphutil\PhutilEventListener {
+class AphrontWriteGuardExitEventListener extends \Facebook\Libphutil\PhutilEventListener {
 
   public function register() {
     $this->listen(\Facebook\Libphutil\PhutilEventType::TYPE_WILLEXITABRUPTLY);

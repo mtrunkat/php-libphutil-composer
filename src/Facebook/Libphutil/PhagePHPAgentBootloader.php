@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhagePHPAgentBootloader extends \Facebook\Libphutil\PhageAgentBootloader {
+class PhagePHPAgentBootloader extends \Facebook\Libphutil\PhageAgentBootloader {
 
   private $bootSequence;
   private $bootLength;

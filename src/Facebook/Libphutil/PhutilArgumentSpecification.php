@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group console
  */
-final class PhutilArgumentSpecification {
+class PhutilArgumentSpecification {
 
   private $name;
   private $help;

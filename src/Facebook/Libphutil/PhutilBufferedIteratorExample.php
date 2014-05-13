@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Example implementation and test case for @{class:PhutilBufferedIterator}.
  */
-final class PhutilBufferedIteratorExample extends \Facebook\Libphutil\PhutilBufferedIterator {
+class PhutilBufferedIteratorExample extends \Facebook\Libphutil\PhutilBufferedIterator {
 
   private $cursor;
   private $data;

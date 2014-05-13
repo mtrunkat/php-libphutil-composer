@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * Simple event store for service calls, so they can be printed to stdout or
  * displayed in a debug console.
  */
-final class PhutilServiceProfiler {
+class PhutilServiceProfiler {
 
   private static $instance;
   private $listeners = array();

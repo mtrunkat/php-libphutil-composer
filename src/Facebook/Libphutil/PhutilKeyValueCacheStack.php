@@ -11,7 +11,7 @@ namespace Facebook\Libphutil;
  * @task  config    Configuring the Stack
  * @group cache
  */
-final class PhutilKeyValueCacheStack extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheStack extends \Facebook\Libphutil\PhutilKeyValueCache {
 
 
   /**

@@ -5,5 +5,5 @@ namespace Facebook\Libphutil;
 /**
  * @group storage
  */
-final class AphrontQueryConnectionLostException
+class AphrontQueryConnectionLostException
   extends \Facebook\Libphutil\AphrontQueryRecoverableException { }

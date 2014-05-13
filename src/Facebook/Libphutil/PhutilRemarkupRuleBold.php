@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupRuleBold
+class PhutilRemarkupRuleBold
   extends \Facebook\Libphutil\PhutilRemarkupRule {
 
   public function getPriority() {

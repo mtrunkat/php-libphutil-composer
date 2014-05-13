@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilConsoleMessage {
+class PhutilConsoleMessage {
 
   const TYPE_CONFIRM    = 'phutil:confirm';
   const TYPE_PROMPT     = 'phutil:prompt';

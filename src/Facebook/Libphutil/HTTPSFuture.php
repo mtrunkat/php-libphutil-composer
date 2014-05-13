@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group futures
  */
-final class HTTPSFuture extends \Facebook\Libphutil\BaseHTTPFuture {
+class HTTPSFuture extends \Facebook\Libphutil\BaseHTTPFuture {
 
   private static $multi;
   private static $results = array();

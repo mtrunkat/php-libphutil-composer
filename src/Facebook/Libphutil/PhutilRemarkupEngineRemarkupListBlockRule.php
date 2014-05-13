@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupEngineRemarkupListBlockRule
+class PhutilRemarkupEngineRemarkupListBlockRule
   extends \Facebook\Libphutil\PhutilRemarkupEngineBlockRule {
 
   /**

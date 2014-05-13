@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilDefaultSyntaxHighlighter {
+class PhutilDefaultSyntaxHighlighter {
 
   public function setConfig($key, $value) {
     return $this;

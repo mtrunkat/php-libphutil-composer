@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilRemarkupEngineRemarkupReplyBlockRule
+class PhutilRemarkupEngineRemarkupReplyBlockRule
   extends \Facebook\Libphutil\PhutilRemarkupEngineBlockRule {
 
   public function getPriority() {

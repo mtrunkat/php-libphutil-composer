@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group testcase
  */
-final class PhutilSaturateStdoutDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
+class PhutilSaturateStdoutDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
 
   public function run() {
     for ($ii = 0; $ii < 512; $ii++) {

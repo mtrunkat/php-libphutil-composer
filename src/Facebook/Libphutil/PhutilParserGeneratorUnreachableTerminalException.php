@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilParserGeneratorUnreachableTerminalException
+class PhutilParserGeneratorUnreachableTerminalException
   extends \Facebook\Libphutil\PhutilParserGeneratorException {
 
 }

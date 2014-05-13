@@ -18,7 +18,7 @@ namespace Facebook\Libphutil;
  * @task config  Configuring Options
  * @group console
  */
-final class PhutilInteractiveEditor {
+class PhutilInteractiveEditor {
 
   private $name     = '';
   private $content  = '';

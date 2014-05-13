@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group testcase
  */
-final class PhutilHangForeverDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
+class PhutilHangForeverDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
 
   public function run() {
     while (true) {

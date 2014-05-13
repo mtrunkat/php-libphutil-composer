@@ -18,7 +18,7 @@ namespace Facebook\Libphutil;
  * @task  storage   Cache Storage
  * @group cache
  */
-final class PhutilKeyValueCacheOnDisk extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheOnDisk extends \Facebook\Libphutil\PhutilKeyValueCache {
 
   private $cache = array();
   private $cacheFile;

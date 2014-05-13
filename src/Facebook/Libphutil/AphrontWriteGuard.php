@@ -32,7 +32,7 @@ namespace Facebook\Libphutil;
  *
  * @group aphront
  */
-final class AphrontWriteGuard {
+class AphrontWriteGuard {
 
   private static $instance;
   private static $allowUnguardedWrites = false;

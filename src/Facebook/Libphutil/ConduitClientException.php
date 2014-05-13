@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group conduit
  */
-final class ConduitClientException extends \Exception {
+class ConduitClientException extends \Exception {
 
   protected $errorCode;
 

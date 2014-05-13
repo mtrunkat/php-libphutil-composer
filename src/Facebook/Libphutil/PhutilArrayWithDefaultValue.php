@@ -28,7 +28,7 @@ namespace Facebook\Libphutil;
  * things or build bitmasks. You can change the default with
  * @{method:setDefaultValue}.
  */
-final class PhutilArrayWithDefaultValue extends \Facebook\Libphutil\PhutilArray {
+class PhutilArrayWithDefaultValue extends \Facebook\Libphutil\PhutilArray {
 
   private $defaultValue = 0;
 

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Twitter OAuth1.
  */
-final class PhutilAuthAdapterOAuthTwitter extends \Facebook\Libphutil\PhutilAuthAdapterOAuth1 {
+class PhutilAuthAdapterOAuthTwitter extends \Facebook\Libphutil\PhutilAuthAdapterOAuth1 {
 
   private $userInfo;
 

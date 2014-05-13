@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilLexerSyntaxHighlighter extends \Facebook\Libphutil\PhutilSyntaxHighlighter {
+class PhutilLexerSyntaxHighlighter extends \Facebook\Libphutil\PhutilSyntaxHighlighter {
 
   private $config = array();
 

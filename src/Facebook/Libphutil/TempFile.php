@@ -18,7 +18,7 @@ namespace Facebook\Libphutil;
  *
  * @group filesystem
  */
-final class TempFile {
+class TempFile {
 
   private $dir;
   private $file;

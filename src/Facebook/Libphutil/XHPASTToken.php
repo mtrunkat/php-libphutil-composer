@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group xhpast
  */
-final class XHPASTToken extends \Facebook\Libphutil\AASTToken {
+class XHPASTToken extends \Facebook\Libphutil\AASTToken {
 
   public function getTypeName() {
     if (empty($this->typeName)) {

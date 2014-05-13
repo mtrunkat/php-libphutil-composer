@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Facebook OAuth2.
  */
-final class PhutilAuthAdapterOAuthFacebook extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthFacebook extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   private $requireSecureBrowsing;
 

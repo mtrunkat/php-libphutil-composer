@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group futures
  */
-final class HTTPFutureResponseStatusCURL extends \Facebook\Libphutil\HTTPFutureResponseStatus {
+class HTTPFutureResponseStatusCURL extends \Facebook\Libphutil\HTTPFutureResponseStatus {
 
   protected function getErrorCodeType($code) {
     return 'cURL';

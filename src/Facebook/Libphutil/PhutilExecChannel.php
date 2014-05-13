@@ -46,7 +46,7 @@ namespace Facebook\Libphutil;
  *
  * @group channel
  */
-final class PhutilExecChannel extends \Facebook\Libphutil\PhutilChannel {
+class PhutilExecChannel extends \Facebook\Libphutil\PhutilChannel {
 
   private $future;
   private $stderrHandler;

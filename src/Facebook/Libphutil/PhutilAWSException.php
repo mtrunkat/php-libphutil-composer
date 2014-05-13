@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group aws
  */
-final class PhutilAWSException extends \Exception {
+class PhutilAWSException extends \Exception {
 
   private $httpStatus;
   private $requestID;

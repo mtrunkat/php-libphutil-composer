@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group filesystem
  */
-final class FilesystemException extends \Exception {
+class FilesystemException extends \Exception {
 
   protected $path;
 

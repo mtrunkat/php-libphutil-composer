@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilXHPASTSyntaxHighlighter {
+class PhutilXHPASTSyntaxHighlighter {
 
   public function getHighlightFuture($source) {
     $scrub = false;

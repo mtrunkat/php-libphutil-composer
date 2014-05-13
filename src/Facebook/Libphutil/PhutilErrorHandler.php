@@ -32,7 +32,7 @@ namespace Facebook\Libphutil;
  * @task internal Internals
  * @group error
  */
-final class PhutilErrorHandler {
+class PhutilErrorHandler {
 
   private static $errorListener = null;
   private static $initialized = false;

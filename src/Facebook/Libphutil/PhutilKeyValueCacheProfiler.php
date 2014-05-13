@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilKeyValueCacheProfiler extends \Facebook\Libphutil\PhutilKeyValueCacheProxy {
+class PhutilKeyValueCacheProfiler extends \Facebook\Libphutil\PhutilKeyValueCacheProxy {
 
   private $profiler;
   private $name;

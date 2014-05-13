@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * NOTE: This class has the same purpose as \CallbackFilterIterator in PHP 5.4.
  */
-final class PhutilCallbackFilterIterator extends \FilterIterator {
+class PhutilCallbackFilterIterator extends \FilterIterator {
   private $callback;
 
   /**

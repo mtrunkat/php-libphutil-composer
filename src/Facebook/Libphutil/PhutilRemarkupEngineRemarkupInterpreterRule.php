@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupEngineRemarkupInterpreterRule
+class PhutilRemarkupEngineRemarkupInterpreterRule
   extends \Facebook\Libphutil\PhutilRemarkupEngineBlockRule {
 
   const START_BLOCK_PATTERN = '/^([\w]+)\s*(?:\(([^)]+)\)\s*)?{{{/';

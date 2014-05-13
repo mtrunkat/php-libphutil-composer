@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Basic URI parser object.
  */
-final class PhutilURI {
+class PhutilURI {
 
   private $protocol;
   private $user;

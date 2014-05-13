@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Github OAuth2.
  */
-final class PhutilAuthAdapterOAuthGitHub extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthGitHub extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   public function getAdapterType() {
     return 'github';

@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilParserGeneratorInvalidRuleException
+class PhutilParserGeneratorInvalidRuleException
   extends \Facebook\Libphutil\PhutilParserGeneratorException {
 
 }

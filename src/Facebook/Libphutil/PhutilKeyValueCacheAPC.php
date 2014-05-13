@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group cache
  */
-final class PhutilKeyValueCacheAPC extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheAPC extends \Facebook\Libphutil\PhutilKeyValueCache {
 
 
 /* -(  Key-Value Cache Implementation  )------------------------------------- */

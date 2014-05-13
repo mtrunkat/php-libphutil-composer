@@ -18,7 +18,7 @@ namespace Facebook\Libphutil;
  * @task assert      Assertions
  * @group filesystem
  */
-final class Filesystem {
+class Filesystem {
 
 
 /* -(  Files  )-------------------------------------------------------------- */

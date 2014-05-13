@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group aast
  */
-final class AASTNodeList implements \Iterator, \Countable {
+class AASTNodeList implements \Iterator, \Countable {
 
   protected $list;
   protected $tree;

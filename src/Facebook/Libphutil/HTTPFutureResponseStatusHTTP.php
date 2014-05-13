@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group futures
  */
-final class HTTPFutureResponseStatusHTTP extends \Facebook\Libphutil\HTTPFutureResponseStatus {
+class HTTPFutureResponseStatusHTTP extends \Facebook\Libphutil\HTTPFutureResponseStatus {
 
   private $excerpt;
   private $expect;

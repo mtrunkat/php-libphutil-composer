@@ -41,7 +41,7 @@ namespace Facebook\Libphutil;
  *    string (uppercase)
  *
  */
-final class PhutilTypeSpec {
+class PhutilTypeSpec {
 
   private $type;
   private $subtypes = array();

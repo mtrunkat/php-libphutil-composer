@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group event
  */
-final class PhutilEventEngine {
+class PhutilEventEngine {
 
   private static $instance;
 

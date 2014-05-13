@@ -47,7 +47,7 @@ namespace Facebook\Libphutil;
  * delete = 1, replace = 1) and computing edit distances for strings of fewer
  * than 1,000 characters, you might set the alter cost to 0.001.
  */
-final class PhutilEditDistanceMatrix {
+class PhutilEditDistanceMatrix {
 
   private $insertCost    = 1;
   private $deleteCost    = 1;

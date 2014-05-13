@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group console
  */
-final class PhutilConsoleServerChannel extends \Facebook\Libphutil\PhutilChannelChannel {
+class PhutilConsoleServerChannel extends \Facebook\Libphutil\PhutilChannelChannel {
 
   public function didReceiveStderr(\Facebook\Libphutil\PhutilExecChannel $channel, $stderr) {
     $message = \Facebook\Libphutil\Functions\utils::id(new \Facebook\Libphutil\PhutilConsoleMessage())

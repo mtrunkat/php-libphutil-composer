@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group storage
  */
-final class AphrontDatabaseTransactionState {
+class AphrontDatabaseTransactionState {
 
   private $depth           = 0;
   private $readLockLevel   = 0;

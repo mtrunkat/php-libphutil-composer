@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Data structure for representing filesystem directory trees.
  */
-final class PhutilFileTree {
+class PhutilFileTree {
 
   private $name;
   private $fullPath;

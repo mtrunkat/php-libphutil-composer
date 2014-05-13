@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group lexer
  */
-final class PhutilTypeLexer extends \Facebook\Libphutil\PhutilLexer {
+class PhutilTypeLexer extends \Facebook\Libphutil\PhutilLexer {
 
   protected function getRawRules() {
     return array(

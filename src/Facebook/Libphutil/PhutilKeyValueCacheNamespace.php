@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilKeyValueCacheNamespace extends \Facebook\Libphutil\PhutilKeyValueCacheProxy {
+class PhutilKeyValueCacheNamespace extends \Facebook\Libphutil\PhutilKeyValueCacheProxy {
 
   private $namespace;
 

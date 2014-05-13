@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * \Exception thrown when a system command fails.
  * @group exec
  */
-final class CommandException extends \Exception {
+class CommandException extends \Exception {
 
   protected $command;
   protected $stdout;

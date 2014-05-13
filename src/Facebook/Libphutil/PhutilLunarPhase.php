@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *   $moon = new \Facebook\Libphutil\PhutilLunarPhase(time());
  *   $moon->isFull();
  */
-final class PhutilLunarPhase {
+class PhutilLunarPhase {
 
   private $epoch;
 

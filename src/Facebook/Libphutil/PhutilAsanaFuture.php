@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group asana
  */
-final class PhutilAsanaFuture extends \Facebook\Libphutil\FutureProxy {
+class PhutilAsanaFuture extends \Facebook\Libphutil\FutureProxy {
 
   private $future;
   private $accessToken;

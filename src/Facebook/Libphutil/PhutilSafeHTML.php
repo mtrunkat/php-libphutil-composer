@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilSafeHTML {
+class PhutilSafeHTML {
 
   private $content;
 

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group library
  */
-final class PhutilMissingSymbolException extends \Exception {
+class PhutilMissingSymbolException extends \Exception {
   public function __construct($symbol, $type, $reason) {
     parent::__construct(
       "Failed to load {$type} '{$symbol}': $reason ".

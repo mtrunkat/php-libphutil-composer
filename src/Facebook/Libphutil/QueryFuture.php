@@ -28,7 +28,7 @@ namespace Facebook\Libphutil;
  * `$result` contains a list of dicts for select queries or number of modified
  * rows for modification queries.
  */
-final class QueryFuture extends \Facebook\Libphutil\Future {
+class QueryFuture extends \Facebook\Libphutil\Future {
 
   private static $futures = array();
 

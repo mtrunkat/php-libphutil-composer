@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @task protocol Protocol Implementation
  */
-final class PhutilPHPObjectProtocolChannel extends \Facebook\Libphutil\PhutilProtocolChannel {
+class PhutilPHPObjectProtocolChannel extends \Facebook\Libphutil\PhutilProtocolChannel {
 
   const MODE_LENGTH = 'length';
   const MODE_OBJECT = 'object';

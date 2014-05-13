@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @phutil-external-symbol class \mysqli
  */
-final class AphrontMySQLiDatabaseConnection
+class AphrontMySQLiDatabaseConnection
   extends \Facebook\Libphutil\AphrontMySQLDatabaseConnectionBase {
 
   public function escapeUTF8String($string) {

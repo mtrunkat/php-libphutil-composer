@@ -5,6 +5,6 @@ namespace Facebook\Libphutil;
 /**
  * @group storage
  */
-final class AphrontQueryDuplicateKeyException extends \Facebook\Libphutil\AphrontQueryException {
+class AphrontQueryDuplicateKeyException extends \Facebook\Libphutil\AphrontQueryException {
 
 }

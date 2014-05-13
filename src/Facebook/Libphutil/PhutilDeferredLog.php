@@ -39,7 +39,7 @@ namespace Facebook\Libphutil;
  * @task internal   Internals
  * @group filesystem
  */
-final class PhutilDeferredLog {
+class PhutilDeferredLog {
 
   private $file;
   private $format;

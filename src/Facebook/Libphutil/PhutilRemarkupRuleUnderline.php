@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilRemarkupRuleUnderline
+class PhutilRemarkupRuleUnderline
   extends \Facebook\Libphutil\PhutilRemarkupRule {
 
   public function getPriority() {

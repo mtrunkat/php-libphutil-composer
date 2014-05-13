@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilParserGeneratorUnknownSymbolException
+class PhutilParserGeneratorUnknownSymbolException
   extends \Facebook\Libphutil\PhutilParserGeneratorException {
 
 }

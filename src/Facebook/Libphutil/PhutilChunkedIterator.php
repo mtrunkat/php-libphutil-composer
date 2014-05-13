@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * This is an iterator version of array_chunk().
  */
-final class PhutilChunkedIterator implements \Iterator {
+class PhutilChunkedIterator implements \Iterator {
   private $iterator;
   private $size;
 

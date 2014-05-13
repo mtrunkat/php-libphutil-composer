@@ -2,4 +2,4 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilLockException extends \Exception {}
+class PhutilLockException extends \Exception {}

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilPygmentsSyntaxHighlighter {
+class PhutilPygmentsSyntaxHighlighter {
 
   private $config = array();
 

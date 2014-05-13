@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Retrieve identify information from LDAP accounts.
  */
-final class PhutilAuthAdapterLDAP extends \Facebook\Libphutil\PhutilAuthAdapter {
+class PhutilAuthAdapterLDAP extends \Facebook\Libphutil\PhutilAuthAdapter {
 
   private $hostname;
   private $port = 389;

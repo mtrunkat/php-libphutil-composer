@@ -9,7 +9,7 @@ namespace Facebook\Libphutil;
  *  Guzzle: https://github.com/guzzle/guzzle/blob/master/src/Guzzle/Plugin/Oauth/OauthPlugin.php
  *
  */
-final class PhutilOAuth1Future extends \Facebook\Libphutil\FutureProxy {
+class PhutilOAuth1Future extends \Facebook\Libphutil\FutureProxy {
 
   private $uri;
   private $data;

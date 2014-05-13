@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group conduit
  */
-final class ConduitFuture extends \Facebook\Libphutil\FutureProxy {
+class ConduitFuture extends \Facebook\Libphutil\FutureProxy {
 
   protected $client;
   protected $conduitMethod;

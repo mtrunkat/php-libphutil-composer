@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhagePHPAgent {
+class PhagePHPAgent {
 
   private $stdin;
   private $master;

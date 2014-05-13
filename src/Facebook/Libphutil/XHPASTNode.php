@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group xhpast
  */
-final class XHPASTNode extends \Facebook\Libphutil\AASTNode {
+class XHPASTNode extends \Facebook\Libphutil\AASTNode {
 
   public function isStaticScalar() {
     return ($this->getTypeName() == 'n_STRING_SCALAR' ||

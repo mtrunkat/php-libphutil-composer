@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilTypeCheckException extends \Exception {
+class PhutilTypeCheckException extends \Exception {
 
   public function __construct(
     \Facebook\Libphutil\PhutilTypeSpec $type,

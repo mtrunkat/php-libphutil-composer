@@ -2,6 +2,6 @@
 
 namespace Facebook\Libphutil;
 
-final class AphrontQueryCharacterSetException extends \Facebook\Libphutil\AphrontQueryException {
+class AphrontQueryCharacterSetException extends \Facebook\Libphutil\AphrontQueryException {
 
 }

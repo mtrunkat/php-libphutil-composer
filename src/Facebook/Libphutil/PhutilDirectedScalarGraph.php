@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * Concrete subclass of @{class:AbstractDirectedGraph} which can not load any
  * data from external sources.
  */
-final class PhutilDirectedScalarGraph extends \Facebook\Libphutil\AbstractDirectedGraph {
+class PhutilDirectedScalarGraph extends \Facebook\Libphutil\AbstractDirectedGraph {
 
   protected function loadEdges(array $nodes) {
     throw new \Exception(

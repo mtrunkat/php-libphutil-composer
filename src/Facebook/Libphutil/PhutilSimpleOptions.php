@@ -13,7 +13,7 @@ namespace Facebook\Libphutil;
  * @task config   Parser Configuration
  * @task internal Internals
  */
-final class PhutilSimpleOptions {
+class PhutilSimpleOptions {
 
   private $caseSensitive;
 

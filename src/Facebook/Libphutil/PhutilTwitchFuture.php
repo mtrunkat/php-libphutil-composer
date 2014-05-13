@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group twitch
  */
-final class PhutilTwitchFuture extends \Facebook\Libphutil\FutureProxy {
+class PhutilTwitchFuture extends \Facebook\Libphutil\FutureProxy {
 
   private $future;
   private $clientID;

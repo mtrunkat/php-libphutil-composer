@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  * is particularly useful for buffering large amounts of data that is being
  * passed to `fwrite()`.
  */
-final class PhutilRope extends \Facebook\Libphutil\Phobject {
+class PhutilRope extends \Facebook\Libphutil\Phobject {
 
   private $length = 0;
   private $buffers = array();

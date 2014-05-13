@@ -34,7 +34,7 @@ namespace Facebook\Libphutil;
  *
  * @group markup
  */
-final class PhutilRemarkupBlockStorage {
+class PhutilRemarkupBlockStorage {
 
   const MAGIC_BYTE = "\1";
 

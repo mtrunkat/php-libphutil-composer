@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * NOTE: This is very new and unstable.
  */
-final class PhutilSprite {
+class PhutilSprite {
 
   private $sourceFiles = array();
   private $sourceX;

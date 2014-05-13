@@ -5,6 +5,6 @@ namespace Facebook\Libphutil;
 /**
  * @group storage
  */
-final class AphrontQuerySchemaException extends \Facebook\Libphutil\AphrontQueryException {
+class AphrontQuerySchemaException extends \Facebook\Libphutil\AphrontQueryException {
 
 }

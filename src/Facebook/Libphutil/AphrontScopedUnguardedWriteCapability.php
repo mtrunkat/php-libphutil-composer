@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group aphront
  */
-final class AphrontScopedUnguardedWriteCapability {
+class AphrontScopedUnguardedWriteCapability {
 
   final public function __destruct() {
     \Facebook\Libphutil\AphrontWriteGuard::endUnguardedWrites();

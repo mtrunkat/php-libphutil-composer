@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for JIRA OAuth1.
  */
-final class PhutilAuthAdapterOAuthJIRA extends \Facebook\Libphutil\PhutilAuthAdapterOAuth1 {
+class PhutilAuthAdapterOAuthJIRA extends \Facebook\Libphutil\PhutilAuthAdapterOAuth1 {
 
   // TODO: JIRA tokens expire (after 5 years) and we could surface and store
   // that.

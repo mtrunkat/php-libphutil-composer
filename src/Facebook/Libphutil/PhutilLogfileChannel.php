@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * A @{class:PhutilChannelChannel} which wraps some other channel and writes
  * data passed over it to a log file.
  */
-final class PhutilLogfileChannel extends \Facebook\Libphutil\PhutilChannelChannel {
+class PhutilLogfileChannel extends \Facebook\Libphutil\PhutilChannelChannel {
 
   private $logfile;
 

@@ -54,7 +54,7 @@ namespace Facebook\Libphutil;
  * @task tables       Computing Action and Goto Tables
  * @task inspect      Inspecting Generator State
  */
-final class PhutilParserGenerator {
+class PhutilParserGenerator {
 
   private $terminals;
   private $rules;

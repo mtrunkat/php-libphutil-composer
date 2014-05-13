@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilDefaultSyntaxHighlighterEnginePygmentsFuture
+class PhutilDefaultSyntaxHighlighterEnginePygmentsFuture
   extends \Facebook\Libphutil\FutureProxy {
 
   private $source;

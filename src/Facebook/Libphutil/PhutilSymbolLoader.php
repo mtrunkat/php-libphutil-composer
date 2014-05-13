@@ -36,7 +36,7 @@ namespace Facebook\Libphutil;
  *
  * @group library
  */
-final class PhutilSymbolLoader {
+class PhutilSymbolLoader {
 
   private $type;
   private $library;

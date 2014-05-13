@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  * This adapter can be used when you need an adapter for some technical reason
  * but it doesn't make sense to put logic inside it.
  */
-final class PhutilAuthAdapterEmpty extends \Facebook\Libphutil\PhutilAuthAdapter {
+class PhutilAuthAdapterEmpty extends \Facebook\Libphutil\PhutilAuthAdapter {
 
   private $accountID;
   private $adapterType;

@@ -16,7 +16,7 @@ namespace Facebook\Libphutil;
  * path is interpreted as relative on the remote, rather than absolute (as with
  * normal URIs).
  */
-final class PhutilGitURI {
+class PhutilGitURI {
 
   private $user;
   private $domain;

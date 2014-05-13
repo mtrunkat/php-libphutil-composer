@@ -24,7 +24,7 @@ namespace Facebook\Libphutil;
  * @task  storage   Cache Storage
  * @group cache
  */
-final class PhutilKeyValueCacheDirectory extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheDirectory extends \Facebook\Libphutil\PhutilKeyValueCache {
 
   private $lock;
   private $cacheDirectory;

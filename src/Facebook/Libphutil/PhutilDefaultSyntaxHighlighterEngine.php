@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilDefaultSyntaxHighlighterEngine
+class PhutilDefaultSyntaxHighlighterEngine
   extends \Facebook\Libphutil\PhutilSyntaxHighlighterEngine {
 
   private $config = array();

@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilCommandString extends \Facebook\Libphutil\Phobject {
+class PhutilCommandString extends \Facebook\Libphutil\Phobject {
 
   private $argv;
 

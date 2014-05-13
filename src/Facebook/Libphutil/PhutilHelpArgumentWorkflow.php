@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group console
  */
-final class PhutilHelpArgumentWorkflow extends \Facebook\Libphutil\PhutilArgumentWorkflow {
+class PhutilHelpArgumentWorkflow extends \Facebook\Libphutil\PhutilArgumentWorkflow {
 
   protected function didConstruct() {
     $this->setName('help');

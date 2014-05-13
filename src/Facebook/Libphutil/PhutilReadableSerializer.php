@@ -10,7 +10,7 @@ namespace Facebook\Libphutil;
  * @task internal Internals
  * @group error
  */
-final class PhutilReadableSerializer {
+class PhutilReadableSerializer {
 
 
 /* -(  Printing PHP Values  )------------------------------------------------ */

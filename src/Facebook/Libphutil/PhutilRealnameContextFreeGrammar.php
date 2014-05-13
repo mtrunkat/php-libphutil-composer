@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilRealnameContextFreeGrammar
+class PhutilRealnameContextFreeGrammar
   extends \Facebook\Libphutil\PhutilContextFreeGrammar {
 
   protected function getRules() {

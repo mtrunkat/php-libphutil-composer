@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Google OAuth2.
  */
-final class PhutilAuthAdapterOAuthGoogle extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthGoogle extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   public function getAdapterType() {
     return 'google';

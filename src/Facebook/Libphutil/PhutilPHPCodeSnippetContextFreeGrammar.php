@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilPHPCodeSnippetContextFreeGrammar
+class PhutilPHPCodeSnippetContextFreeGrammar
   extends \Facebook\Libphutil\PhutilCLikeCodeSnippetContextFreeGrammar {
 
   protected function buildRuleSet() {

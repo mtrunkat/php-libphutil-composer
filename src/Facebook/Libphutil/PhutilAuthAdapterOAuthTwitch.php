@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Twitch.tv OAuth2.
  */
-final class PhutilAuthAdapterOAuthTwitch extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthTwitch extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   public function getAdapterType() {
     return 'twitch';

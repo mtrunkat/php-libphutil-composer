@@ -25,7 +25,7 @@ namespace Facebook\Libphutil;
  *   Issues: http://bugs.com/123, http://bugs.com/345
  *
  */
-final class PhutilBugtraqParser {
+class PhutilBugtraqParser {
 
   private $bugtraqPattern;
   private $bugtraqCaptureExpression;

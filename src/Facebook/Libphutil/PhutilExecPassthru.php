@@ -23,7 +23,7 @@ namespace Facebook\Libphutil;
  *
  * @group exec
  */
-final class PhutilExecPassthru extends \Facebook\Libphutil\Phobject {
+class PhutilExecPassthru extends \Facebook\Libphutil\Phobject {
 
   private $command;
   private $env;

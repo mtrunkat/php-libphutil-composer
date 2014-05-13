@@ -21,7 +21,7 @@ namespace Facebook\Libphutil;
  *
  * @group filesystem
  */
-final class PhutilFileLock extends \Facebook\Libphutil\PhutilLock {
+class PhutilFileLock extends \Facebook\Libphutil\PhutilLock {
 
   private $lockfile;
   private $handle;

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Disqus OAuth2.
  */
-final class PhutilAuthAdapterOAuthDisqus extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthDisqus extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   public function getAdapterType() {
     return 'disqus';

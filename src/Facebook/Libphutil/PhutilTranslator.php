@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group internationalization
  */
-final class PhutilTranslator {
+class PhutilTranslator {
   static private $instance;
 
   private $language = 'en';

@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group markup
  */
-final class PhutilDivinerSyntaxHighlighter {
+class PhutilDivinerSyntaxHighlighter {
 
   private $config = array();
   private $replaceClass;

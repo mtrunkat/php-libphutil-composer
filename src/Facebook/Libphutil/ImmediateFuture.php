@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group futures
  */
-final class ImmediateFuture extends \Facebook\Libphutil\Future {
+class ImmediateFuture extends \Facebook\Libphutil\Future {
 
   public function __construct($result) {
     $this->result = $result;

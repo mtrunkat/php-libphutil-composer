@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group futures
  */
-final class HTTPFutureResponseStatusParse extends \Facebook\Libphutil\HTTPFutureResponseStatus {
+class HTTPFutureResponseStatusParse extends \Facebook\Libphutil\HTTPFutureResponseStatus {
 
   const ERROR_MALFORMED_RESPONSE = 1;
 

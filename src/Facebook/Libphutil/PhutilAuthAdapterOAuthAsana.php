@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * Authentication adapter for Asana OAuth2.
  */
-final class PhutilAuthAdapterOAuthAsana extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
+class PhutilAuthAdapterOAuthAsana extends \Facebook\Libphutil\PhutilAuthAdapterOAuth {
 
   public function getAdapterType() {
     return 'asana';

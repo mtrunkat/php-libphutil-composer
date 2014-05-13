@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group parser
  */
-final class PhutilDocblockParser {
+class PhutilDocblockParser {
 
   public function extractDocblocks($text) {
     $blocks = array();

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupRuleLinebreaks
+class PhutilRemarkupRuleLinebreaks
   extends \Facebook\Libphutil\PhutilRemarkupRule {
 
   public function apply($text) {

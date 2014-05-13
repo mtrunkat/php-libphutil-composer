@@ -26,7 +26,7 @@ namespace Facebook\Libphutil;
  * we'd like to be able to parse all valid query strings without destroying any
  * data, this class implements a less-encumbered parser.
  */
-final class PhutilQueryStringParser {
+class PhutilQueryStringParser {
 
 
   /**

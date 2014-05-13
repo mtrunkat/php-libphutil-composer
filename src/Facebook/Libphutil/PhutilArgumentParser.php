@@ -70,7 +70,7 @@ namespace Facebook\Libphutil;
  *
  * @group console
  */
-final class PhutilArgumentParser {
+class PhutilArgumentParser {
 
   private $bin;
   private $argv;

@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilNumber {
+class PhutilNumber {
 
   private $value;
   private $decimals = 0;

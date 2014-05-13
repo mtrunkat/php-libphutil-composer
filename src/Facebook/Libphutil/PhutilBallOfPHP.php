@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * Concatenates PHP files together into a single stream. Used by Phage to
  * transmit bootloading code.
  */
-final class PhutilBallOfPHP {
+class PhutilBallOfPHP {
 
   private $parts = array();
 

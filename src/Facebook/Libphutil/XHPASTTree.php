@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group xhpast
  */
-final class XHPASTTree extends \Facebook\Libphutil\AASTTree {
+class XHPASTTree extends \Facebook\Libphutil\AASTTree {
 
   public function __construct(array $tree, array $stream, $source) {
     $this->setTreeType('XHP');

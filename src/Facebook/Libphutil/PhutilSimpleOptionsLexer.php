@@ -13,7 +13,7 @@ namespace Facebook\Libphutil;
  *
  * @group lexer
  */
-final class PhutilSimpleOptionsLexer extends \Facebook\Libphutil\PhutilLexer {
+class PhutilSimpleOptionsLexer extends \Facebook\Libphutil\PhutilLexer {
 
   public function getNiceTokens($input) {
     $tokens = $this->getTokens($input);

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group console
  */
-final class PhutilConsoleServer {
+class PhutilConsoleServer {
 
   private $clients = array();
   private $handler;

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group storage
  */
-final class AphrontMySQLDatabaseConnection
+class AphrontMySQLDatabaseConnection
   extends \Facebook\Libphutil\AphrontMySQLDatabaseConnectionBase {
 
   public function escapeUTF8String($string) {

@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilRemarkupEngine extends \Facebook\Libphutil\PhutilMarkupEngine {
+class PhutilRemarkupEngine extends \Facebook\Libphutil\PhutilMarkupEngine {
 
   const MODE_DEFAULT = 0;
   const MODE_TEXT = 1;

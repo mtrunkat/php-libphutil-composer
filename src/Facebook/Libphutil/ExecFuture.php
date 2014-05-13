@@ -22,7 +22,7 @@ namespace Facebook\Libphutil;
  * @task internal Internals
  * @group exec
  */
-final class ExecFuture extends \Facebook\Libphutil\Future {
+class ExecFuture extends \Facebook\Libphutil\Future {
 
   private $pipes        = array();
   private $proc         = null;

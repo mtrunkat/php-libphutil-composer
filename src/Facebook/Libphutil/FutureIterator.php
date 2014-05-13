@@ -32,7 +32,7 @@ namespace Facebook\Libphutil;
  *
  * @group futures
  */
-final class FutureIterator implements \Iterator {
+class FutureIterator implements \Iterator {
 
   protected $wait     = array();
   protected $work     = array();

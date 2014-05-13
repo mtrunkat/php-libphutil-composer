@@ -7,7 +7,7 @@ namespace Facebook\Libphutil;
  *
  * @group testcase
  */
-final class PhutilExcessiveServiceCallsDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
+class PhutilExcessiveServiceCallsDaemon extends \Facebook\Libphutil\PhutilTortureTestDaemon {
 
   public function run() {
     while (true) {

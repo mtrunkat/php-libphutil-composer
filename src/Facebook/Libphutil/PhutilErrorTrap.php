@@ -37,7 +37,7 @@ namespace Facebook\Libphutil;
  *     scope. This means that you should not create long-lived traps, or they
  *     may consume unbounded amounts of memory to hold the error log.
  */
-final class PhutilErrorTrap extends \Facebook\Libphutil\Phobject {
+class PhutilErrorTrap extends \Facebook\Libphutil\Phobject {
 
   private $destroyed;
   private $errors = array();

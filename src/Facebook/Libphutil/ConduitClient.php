@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group conduit
  */
-final class ConduitClient {
+class ConduitClient {
 
   private $uri;
   private $connectionID;

@@ -18,7 +18,7 @@ namespace Facebook\Libphutil;
  * @task  internal  Internal
  * @group filesystem
  */
-final class FileFinder {
+class FileFinder {
 
   private $root;
   private $exclude = array();

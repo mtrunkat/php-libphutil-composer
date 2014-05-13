@@ -28,7 +28,7 @@ namespace Facebook\Libphutil;
  *   - The bar will be resized to the width of the console if possible.
  *
  */
-final class PhutilConsoleProgressBar extends \Facebook\Libphutil\Phobject {
+class PhutilConsoleProgressBar extends \Facebook\Libphutil\Phobject {
 
   private $work;
   private $done;

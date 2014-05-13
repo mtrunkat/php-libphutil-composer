@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group filesystem
  */
-final class PhutilDirectoryFixture {
+class PhutilDirectoryFixture {
 
   protected $path;
 

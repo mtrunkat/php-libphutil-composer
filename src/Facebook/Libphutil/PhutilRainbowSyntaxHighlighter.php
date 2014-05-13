@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  *
  * @group markup
  */
-final class PhutilRainbowSyntaxHighlighter {
+class PhutilRainbowSyntaxHighlighter {
 
   private $config = array();
 

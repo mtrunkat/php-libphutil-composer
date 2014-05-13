@@ -13,6 +13,6 @@ namespace Facebook\Libphutil;
  * If an adapter detects that the user has explicitly bailed out of the
  * workflow, it should throw this exception.
  */
-final class PhutilAuthUserAbortedException extends \Facebook\Libphutil\PhutilAuthException {
+class PhutilAuthUserAbortedException extends \Facebook\Libphutil\PhutilAuthException {
 
 }

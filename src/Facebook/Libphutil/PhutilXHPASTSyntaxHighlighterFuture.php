@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilXHPASTSyntaxHighlighterFuture extends \Facebook\Libphutil\FutureProxy {
+class PhutilXHPASTSyntaxHighlighterFuture extends \Facebook\Libphutil\FutureProxy {
 
   private $source;
   private $scrub;

@@ -28,7 +28,7 @@ function phutil_load_library($path) {
 /**
  * @group library
  */
-final class PhutilBootloader {
+class PhutilBootloader {
 
   private static $instance;
 
@@ -271,7 +271,7 @@ final class PhutilBootloader {
 /**
  * @group library
  */
-final class PhutilBootloaderException extends \Exception { }
+class PhutilBootloaderException extends \Exception { }
 
 
 /**
@@ -296,7 +296,7 @@ final class PhutilBootloaderException extends \Exception { }
  * @task construct Creating Library Conflict Exceptions
  * @group library
  */
-final class PhutilLibraryConflictException extends \Exception {
+class PhutilLibraryConflictException extends \Exception {
 
   private $library;
   private $oldPath;

@@ -6,7 +6,7 @@ namespace Facebook\Libphutil;
  * @task  memcache Managing Memcache
  * @group cache
  */
-final class PhutilKeyValueCacheMemcache extends \Facebook\Libphutil\PhutilKeyValueCache {
+class PhutilKeyValueCacheMemcache extends \Facebook\Libphutil\PhutilKeyValueCache {
 
   private $servers = array();
   private $connections = array();

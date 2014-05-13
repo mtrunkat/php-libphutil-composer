@@ -2,7 +2,7 @@
 
 namespace Facebook\Libphutil;
 
-final class PhutilTypeMissingParametersException extends \Exception {
+class PhutilTypeMissingParametersException extends \Exception {
 
   private $parameters;
 

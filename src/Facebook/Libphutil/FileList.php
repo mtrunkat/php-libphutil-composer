@@ -21,7 +21,7 @@ namespace Facebook\Libphutil;
  * @task test   Testing File Lists
  * @group filesystem
  */
-final class FileList {
+class FileList {
 
   private $files = array();
   private $dirs  = array();

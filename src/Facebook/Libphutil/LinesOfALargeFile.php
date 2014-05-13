@@ -20,7 +20,7 @@ namespace Facebook\Libphutil;
  * @task internals  Internals
  * @group filesystem
  */
-final class LinesOfALargeFile extends \Facebook\Libphutil\LinesOfALarge {
+class LinesOfALargeFile extends \Facebook\Libphutil\LinesOfALarge {
 
   private $fileName;
   private $handle;

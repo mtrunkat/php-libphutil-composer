@@ -10,7 +10,7 @@ namespace Facebook\Libphutil;
  *
  * @task internal Internals
  */
-final class PhutilOpaqueEnvelopeKey {
+class PhutilOpaqueEnvelopeKey {
 
   private static $key;
 

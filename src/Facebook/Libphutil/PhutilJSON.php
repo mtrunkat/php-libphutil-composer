@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  * @task pretty Formatting JSON Objects
  * @task internal Internals
  */
-final class PhutilJSON {
+class PhutilJSON {
 
 
 /* -(  Formatting JSON Objects  )-------------------------------------------- */

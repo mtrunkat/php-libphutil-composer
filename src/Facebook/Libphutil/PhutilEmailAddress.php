@@ -8,7 +8,7 @@ namespace Facebook\Libphutil;
  * it should parse all reasonable addresses which are actually in use on the
  * internet today.
  */
-final class PhutilEmailAddress {
+class PhutilEmailAddress {
 
   private $displayName;
   private $localPart;

@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group markup
  */
-final class PhutilRemarkupEngineRemarkupTestInterpreterRule
+class PhutilRemarkupEngineRemarkupTestInterpreterRule
   extends \Facebook\Libphutil\PhutilRemarkupBlockInterpreter {
 
   public function getInterpreterName() {

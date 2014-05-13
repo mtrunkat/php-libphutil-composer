@@ -21,7 +21,7 @@ namespace Facebook\Libphutil;
  *
  * @group channel
  */
-final class PhutilSocketChannel extends \Facebook\Libphutil\PhutilChannel {
+class PhutilSocketChannel extends \Facebook\Libphutil\PhutilChannel {
 
   private $readSocket;
   private $writeSocket;

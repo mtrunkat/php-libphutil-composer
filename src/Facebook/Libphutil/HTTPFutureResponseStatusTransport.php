@@ -5,7 +5,7 @@ namespace Facebook\Libphutil;
 /**
  * @group futures
  */
-final class HTTPFutureResponseStatusTransport extends \Facebook\Libphutil\HTTPFutureResponseStatus {
+class HTTPFutureResponseStatusTransport extends \Facebook\Libphutil\HTTPFutureResponseStatus {
 
   const ERROR_TIMEOUT             = 1;
   const ERROR_CONNECTION_ABORTED  = 2;
